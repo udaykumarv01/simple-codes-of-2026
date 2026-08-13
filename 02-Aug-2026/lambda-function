@@ -1,0 +1,14 @@
+
+print("------------lambda function with coditions-----------------------")
+
+check = lambda x: "Even" if x % 2 == 0 else "Odd"
+
+print(check(10))
+print(check(7))
+
+print("------------lambda function with map()---------------------------")
+
+numbers = [1, 2, 3, 4, 5]
+
+squares = list(map(lambda x: x ** 2, numbers))
+
